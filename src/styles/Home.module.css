@@ -1,0 +1,15 @@
+.progress {
+  font-size: 72px;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--progress); /* Progress value determined from React component */
+  background-color: #333; /* Progress bar color */
+  z-index: -1;
+}
