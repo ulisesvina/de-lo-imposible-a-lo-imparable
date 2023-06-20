@@ -48,6 +48,11 @@ const Header = () => {
                   Sobre
                 </span>
               </Link>
+              <Link href="/contacto">
+                <span className="block lg:inline lg:mt-0 m-3 px-4 py-2 hover:bg-gray-700 rounded-md">
+                  Contacto
+                </span>
+              </Link>
             </li>
           </ul>
         </nav>
